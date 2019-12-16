@@ -1,0 +1,18 @@
+<div>
+	<div>
+		<button (click)="start()">Start creating</button>
+		<button (click)="stop()">Stop creating</button>
+	</div>
+	<div>
+		<h3>Even List</h3>
+		<li *ngFor="let even of evenList">
+			{{even.num}}
+		</li>
+	</div>
+	<div>
+		<h3>Odd List</h3>
+		<li *ngFor="let odd of oddList">
+			{{odd.num}}
+		</li>
+	</div>
+</div>
